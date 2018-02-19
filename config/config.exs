@@ -10,8 +10,7 @@ use Mix.Config
 
 config :edge,
   ref_pattern: "~/CloudStation/Threadbox/conf/edge-layouts/ref.layout#.txt",
-  kbd_pattern: "/Volumes/FS EDGE/layouts/layout#.txt",
-  regex: ~r/(?:\{|\[|fn (?:\{|\[)).+$/
+  kbd_pattern: "/Volumes/FS EDGE/layouts/layout#.txt"
 
 # You can configure your application as:
 #

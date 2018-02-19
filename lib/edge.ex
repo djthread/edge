@@ -5,7 +5,7 @@ defmodule Edge do
 
   @ref_pattern Application.get_env(:edge, :ref_pattern)
   @kbd_pattern Application.get_env(:edge, :kbd_pattern)
-  @regex Application.get_env(:edge, :regex)
+  @regex ~r/(?:\{|\[|fn (?:\{|\[)).+$/
 
   @doc "Install ref to keyboard"
   def install(num) do
